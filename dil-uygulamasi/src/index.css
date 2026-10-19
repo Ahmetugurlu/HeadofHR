@@ -1,0 +1,52 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #1f2937;
+  background: #f9fafb;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.flashcard {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+  min-height: 180px;
+  justify-content: center;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.flashcard .term {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.flashcard .translation {
+  font-size: 1.25rem;
+  color: #2563eb;
+}
+
+.flashcard .example {
+  font-style: italic;
+  color: #6b7280;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
